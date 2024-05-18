@@ -7,7 +7,12 @@ var Name2 = "Akash Patil"
 let Name = "Akash"
 Name3 = "Akash P Patil"
 
+
+//Note: If you try to change value of accountNo(const Variable) then error will be thrown by node js 
+//accountNo=54545
+
 console.log(accountNO);
 
+//console.table is use to print multiple variable values
 console.table([accountNO,Name,Name2,Name3])
 
